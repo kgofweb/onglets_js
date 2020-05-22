@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./main.css">
+      <title>Onglets JS</title>
+</head>
+<body>
+
+      <div class="container">
+
+            <div class="container-onglets">
+                  <!-- data-  pou lier des elements du DOM dans le JS -->
+                  <div class="onglets active" data-index="1"><h2>Destination <i class="fas fa-map-marker-alt"></i></h2></div>
+                  <div class="onglets" data-index="2"><h2>Voyage <i class="fas fa-plane"></i></h2></div>
+                  <div class="onglets" data-index="3"><h2>Tarifs <i class="fas fa-tags"></i></h2></div>
+            </div>
+
+            <!-- Content -->
+            <div class="content activeContent" data-index="1">
+                  <h3>Choose your Destination</h3>
+                  <hr>
+                  <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum fuga molestias, animi vel quisquam vitae aspernatur laudantium quibusdam amet. Corporis harum aperiam beatae aspernatur nihil.
+                  </p>
+                  <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint voluptate aut deleniti quibusdam cum exercitationem!
+                  </p>
+            </div>
+
+            <div class="content" data-index="2">
+                  <h3>Go to Los Angeles</h3>
+                  <hr>
+                  <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum fuga molestias, animi vel quisquam vitae aspernatur laudantium quibusdam amet. Corporis harum aperiam beatae aspernatur nihil.
+                  </p>
+                  <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint voluptate aut deleniti quibusdam cum exercitationem!
+                  </p>
+            </div>
+
+            <div class="content" data-index="3">
+                  <h3>Better Price</h3>
+                  <hr>
+                  <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum fuga molestias, animi vel quisquam vitae aspernatur laudantium quibusdam amet. Corporis harum aperiam beatae aspernatur nihil.
+                  </p>
+                  <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint voluptate aut deleniti quibusdam cum exercitationem!
+                  </p>
+            </div>
+
+      </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+      <script src="./script.js"></script>
+</body>
+</html>
